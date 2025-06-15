@@ -29,6 +29,32 @@ h1 {
     font-weight: bold;
 }
 
+.description {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+.pone {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.ptwo {
+    width: 65%;
+    color: rgb(108, 167, 255);
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 #chat-list {
     display: flex;
     flex-wrap: wrap;
